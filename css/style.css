@@ -1,0 +1,19 @@
+.mainDiv {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 50px;
+  background-color: blueviolet;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gold;
+  display: none;
+}
+
+.popup.active {
+  display: block;
+}
